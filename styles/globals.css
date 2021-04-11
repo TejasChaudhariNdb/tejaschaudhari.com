@@ -2,4 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero-img {
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    center bottom,
+    center top,
+    color-stop(0, rgba(0, 0, 0, 0)),
+    color-stop(1, rgba(0, 0, 0, 1))
+  );
+  margin-right: -20px  !important;
+}
+
+.hero-text{
+    color: #fdfdfd;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #24282c;
+}
+
+.close_drawer {
+  -webkit-animation: close_drawer 300ms ease-in-out;
+  -webkit-animation: close_drawer 300ms ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-transform: translateX(-300%);
+  position: fixed;
+}
+
+.open_drawer {
+  -webkit-animation: open_drawer 300ms ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-transform: translateX(-300%);
+}
+
+
+@-webkit-keyframes open_drawer {
+  to {
+ 
+      -webkit-transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes close_drawer {
+  to {
+      -webkit-transform: translateX(-300%);
+      
+  }
+}
+
 
