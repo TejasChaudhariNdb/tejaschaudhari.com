@@ -11,10 +11,11 @@ function ImageGallary() {
         <meta name="description" content="Hello! I'm Tejas Chaudhari, Full-Stack Developer and Freelancer. I help SaaS startups by building best-in-class software products. View my work. Hire Me"/>
         <meta name="keywords" content="Tejas Chaudhari , Tejas Sanjay Chaudhari , Nandurbar,Tejas , Nandurbar , Tejas Freelancer , Tushar , Tushar Chaudhari " />
   <meta name="author" content="Tejas Chaudhari" />
-  <meta NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW" />
+  <meta name="robots" content="noindex,follow" />
+<meta name="googlebot" content="noindex,follow" />
         </Head>
 
-        <div className="bg-blue-600 p-4 text-center ">Tejas Chaudhari</div>
+        <div className="bg-blue-600 p-4 text-center  text-white">Tejas Chaudhari</div>
 
 <div class="container mt-10">
 
@@ -40,7 +41,7 @@ className="image_tejas"
         alt="Picture of Tejas "
         width={400}
         height={500}
-        className="image_tejas shadow-2xl"
+        className="image_tejas "
       />
 
       <Image

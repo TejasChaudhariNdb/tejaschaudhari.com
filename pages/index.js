@@ -15,7 +15,37 @@ export default function Home() {
         <meta name="keywords" content="Tejas Chaudhari , Tejas Sanjay Chaudhari , Nandurbar,Tejas , Nandurbar , Tejas Freelancer , Tushar , Tushar Chaudhari " />
   <meta name="author" content="Tejas Chaudhari" />
   <meta name="google-site-verification" content="UbAZP55SxhwKX_P2Flr8OQFHOaf7fv1g7xBUPbkTfW0" />
-  <meta NAME="ROBOTS" CONTENT="INDEX,FOLLOW" />
+  <meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+     
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="Hello! I'm Tejas Chaudhari, Full-Stack Developer and Freelancer. I help SaaS startups by building best-in-class software products. View my work. Hire Me"/>
+        <meta name="keywords" content="Tejas Chaudhari , Tejas Sanjay Chaudhari , Nandurbar,Tejas , Nandurbar , Tejas Freelancer , Tushar , Tushar Chaudhari " />
+  <meta name="author" content="Tejas Chaudhari" />
+  <meta name="google-site-verification" content="UbAZP55SxhwKX_P2Flr8OQFHOaf7fv1g7xBUPbkTfW0" />
+  <meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+ 
+     {
+{
+  "@context": "https://schema.org/",
+  "@type": "Course",
+  "courseCode": "F300",
+  "name": "Learn HTML and CSS JS ",
+  "description": "Learn Stepwise for newbie \r\n to Advanced     .",
+
+  "provider": {
+    "@type": "CollegeOrUniversity",
+    "name": "Tejas Codes",
+    "url": {"@id": "/provider/324/university-of-bristol"}
+  }
+}
+
+
+
+     }
+
         </Head>
      
       <div className="h-screen p-6 bg-gradient-to-r from-gray-800 to-gray-900  grid justify-items-center">
